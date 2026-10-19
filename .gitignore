@@ -1,0 +1,28 @@
+# raw data (not redistributed)
+dados/raw/
+raw/
+data/raw/
+*.parquet
+*.npz
+*.pkl
+*.nc
+*.bin
+*.zip
+*.xlsx
+*.tif
+# documents and logs
+*.docx
+*.pdf
+*.log
+__pycache__/
+*.pyc
+catboost_info/
+.ipynb_checkpoints/
+gdp.csv
+glorys/
+hycom/
+wind/
+era5/
+resultados/*.npy
+resultados/_parcial*
+manuscrito_OD.md

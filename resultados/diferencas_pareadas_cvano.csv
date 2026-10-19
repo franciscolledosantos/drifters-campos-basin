@@ -1,0 +1,29 @@
+model,minus,h,diff,lo,hi,frac_better
+Hybrid Transformer,GLORYS12 + windage + r0 decay,24,-1.13,-1.4,-0.83,0.6
+Hybrid Transformer,GLORYS12 + windage + r0 decay,72,-1.13,-2.11,-0.02,0.54
+Hybrid LightGBM + history,GLORYS12 + windage + r0 decay,24,-0.45,-0.88,-0.03,0.55
+Hybrid LightGBM + history,GLORYS12 + windage + r0 decay,72,-0.53,-1.54,0.49,0.54
+Hybrid LightGBM,GLORYS12 + windage + r0 decay,24,1.1,0.58,1.62,0.46
+Hybrid LightGBM,GLORYS12 + windage + r0 decay,72,2.09,0.88,3.5,0.47
+Hybrid MLP,GLORYS12 + windage + r0 decay,24,1.13,0.78,1.5,0.44
+Hybrid MLP,GLORYS12 + windage + r0 decay,72,3.18,1.9,4.44,0.44
+Hybrid ridge,GLORYS12 + windage + r0 decay,24,0.31,-0.05,0.68,0.48
+Hybrid ridge,GLORYS12 + windage + r0 decay,72,-0.83,-1.46,-0.18,0.52
+Hybrid ridge + history,GLORYS12 + windage + r0 decay,24,-0.35,-0.7,0.02,0.54
+Hybrid ridge + history,GLORYS12 + windage + r0 decay,72,-1.72,-2.35,-1.06,0.55
+Hybrid LightGBM,Hybrid ridge,24,0.79,0.42,1.22,0.47
+Hybrid LightGBM,Hybrid ridge,72,2.92,1.61,4.38,0.46
+Hybrid LightGBM + history,Hybrid ridge + history,24,-0.1,-0.41,0.25,0.53
+Hybrid LightGBM + history,Hybrid ridge + history,72,1.19,0.1,2.31,0.49
+Hybrid Transformer,Hybrid ridge + history,24,-0.78,-1.08,-0.47,0.57
+Hybrid Transformer,Hybrid ridge + history,72,0.59,-0.4,1.67,0.5
+Hybrid LightGBM (120k pairs),Hybrid LightGBM,24,-0.09,-0.21,0.01,0.5
+Hybrid LightGBM (120k pairs),Hybrid LightGBM,72,-0.18,-0.52,0.18,0.5
+Hybrid LightGBM + history,Hybrid LightGBM (120k pairs),24,-1.46,-1.65,-1.28,0.68
+Hybrid LightGBM + history,Hybrid LightGBM (120k pairs),72,-2.45,-3.01,-1.92,0.61
+GLORYS12 + windage + r0 decay,GLORYS12 + windage + r0,24,-2.48,-2.7,-2.27,0.72
+GLORYS12 + windage + r0 decay,GLORYS12 + windage + r0,72,-15.54,-17.1,-14.17,0.72
+GLORYS12 + windage + r0 decay,GLORYS12 + windage + mean 24-h residual,24,0.24,-0.15,0.64,0.45
+GLORYS12 + windage + r0 decay,GLORYS12 + windage + mean 24-h residual,72,-6.33,-7.69,-5.02,0.57
+GLORYS12 + windage + r0 decay,Persistence,24,-3.09,-3.42,-2.78,0.71
+GLORYS12 + windage + r0 decay,Persistence,72,-20.16,-22.8,-17.86,0.73
