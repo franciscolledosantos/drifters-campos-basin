@@ -36,6 +36,12 @@ Code comments and some file names are in Portuguese (`resultados` = results, `fi
 
 Raw input files are **not** redistributed in this repository; they are large and/or belong to third parties. Download them from the sources above and place them as described, or start from the derived tables in `resultados/`.
 
+## Archive
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23470307.svg)](https://doi.org/10.5281/zenodo.23470307)
+
+Version v1.0.0: https://doi.org/10.5281/zenodo.23470308
+
 ## Citation
 
 See `CITATION.cff` (co-authors to be added). Licence: MIT.
